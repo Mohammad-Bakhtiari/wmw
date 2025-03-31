@@ -95,7 +95,6 @@ def wilcoxon_pvalue_heatmap(avg_df, p_df, alpha, file_path):
                         fontweight='bold')
 
     plt.tight_layout(rect=[0, 0, 0.8, 1])
-    plt.show()
     plt.savefig(file_path, dpi=300)
     plt.close()
 
