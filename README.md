@@ -33,6 +33,7 @@ python main.py
 📊 Output
 
 * Heatmap: wilcoxon_pvalue_heatmap.png showing average performance differences between the models.
+![heatmap](wilcoxon_pvalue_heatmap.png)
 * Console Output: Number of significant metric-dataset pairs and their adjusted p-values (if < 0.05).
 
 🧪 Statistical Test Description
